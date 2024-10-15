@@ -11,6 +11,6 @@ def pi(terms=1):
 
 @cache
 def rsum(n):
-    dividend = factorial(4 * n) * (1103 + 26390 * n)
+    dividend = (factorial(n) ** 4 * 396 ** (4 * n))
     t = factorial(4 * n) * (1103 + 26390 * n) / dividend
     return t + rsum(n - 1) if n else t

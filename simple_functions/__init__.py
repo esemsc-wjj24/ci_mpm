@@ -1,4 +1,5 @@
 from .functions1 import *  # noqa
+from .constant import *  # noqa
 
 try:
     from importlib.metadata import version, PackageNotFoundError  # Python 3.8+
